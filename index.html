@@ -125,16 +125,50 @@
                 <p class="card-body">Your daily updates of the most played tracks right...</p>
                 </div>
             </div>
+        
         <div class="footer">
-            <div class="line"></div>
+        <div class="line"></div>
         </div>
         </div>
+        
         <div class="music-player">
-            <div class="album-cover">
-                <img src="./img/album_picture.jpeg" />
-                <img src="./img/">
+            <div class="album">
+                <div class="album-cover">
+                    <img src="./img/album_picture.jpeg" class="pic"/>
+                </div>
+                <div class="album-title">
+                    <span class="song-name">Daylight</span>
+                    <span class="artist-name">David Kushner</span>
+                </div>
+                <div class="reactions">
+                    <img src="./img/album_icon1.png" class="react-btn"/>
+                    <img src="./img/album_icon2.png" class="react-btn second-pic"/>
+                </div>
             </div>
-            <div class="music-player-options"></div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./img/player_icon1.png" class="player-control-icon" />
+                    <img src="./img/player_icon2.png" class="player-control-icon" />
+                    <img src="./img/player_icon3.png" class="player-control-icon" style="opacity: 1;height: 2rem" />
+                    <img src="./img/player_icon4.png" class="player-control-icon" />
+                    <img src="./img/player_icon5.png" class="player-control-icon" />
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">0:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1" />
+                    <span class="totel-time">3:53</span>
+                </div>
+            </div>
+            <div class="controls">
+                <!-- used additional classes to make the sizes equal because the sizes of the images were different -->
+                <img src="./img/controls_icon1.png" class="option-control small-opt"/>
+                <img src="./img/controld_icon2.png" class="option-control small-opt"/>
+                <img src="./img/controls_icon3.png" class="option-control norm-opt"/>
+                <img src="./img/controls_icon4.png" class="option-control big-opt"/>
+                <img src="./img/controls_icon5.png" class="option-control small-opt last-opt" style="margin-right:0"/>
+                <input type="range" min="0" max="100" class="sound-bar" step="1"/>
+                
+            </div>
         </div>
 </body>
 </html>
